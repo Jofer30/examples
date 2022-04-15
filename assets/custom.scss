@@ -1,0 +1,37 @@
+// Local defaults for this app
+// use this link as reference for variables to change
+// https://github.com/twbs/bootstrap/blob/v4.4.1/scss/_variables.scss#L738-L755
+
+// Move Roboto self hosted font to front, use rest as fallbacks
+$font-family-sans-serif: Roboto;
+$headings-font-family: 'Roboto Condensed';
+$headings-font-weight: 600;
+$body-bg: #f5f5f5;
+
+$banner-title-font-size: 2.5rem;
+
+// Links
+//
+// Style anchor elements.
+$link-color: deepskyblue;
+$navbar-dark-hover-color: rgba($link-color, 1);
+$navbar-dark-active-color: $link-color;
+$navbar-dark-color: rgba($body-bg, 1);
+// $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+// $navbar-dark-toggler-border-color:  rgba($white, 1);
+$link-hover-color: #f5f5f5;
+$link-hover-decoration: none;
+// Misc
+$placeholder: #6c757d7a;
+$form-field-background-color: #ebedf2;
+
+//$primary: #154e7d;
+$primary: $link-color;
+$secondary: #868e96;
+$success: #0d9346;
+
+$enable-gradients: true;
+$dark: black;
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
